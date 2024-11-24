@@ -1,0 +1,20 @@
+main {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto 300px;
+  @media (max-width: 360px) {
+    padding: 1em;
+    grid-template-columns: 1fr;
+  }
+}
+
+label {
+  color: white;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+}
+
+input {
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+}
