@@ -23,4 +23,6 @@ input {
 .bmrValue,
 .comment {
   text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
